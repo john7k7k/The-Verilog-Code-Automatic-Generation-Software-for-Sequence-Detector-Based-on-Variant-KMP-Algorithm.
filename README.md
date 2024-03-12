@@ -1,0 +1,1 @@
+# The-Verilog-Code-Automatic-Generation-Software-for-Sequence-Detector-Based-on-Variant-KMP-Algorithm.
