@@ -47,4 +47,3 @@ module tb_SequenceDetector;
         $finish;
     end
 endmodule
-;
