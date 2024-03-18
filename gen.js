@@ -100,7 +100,8 @@ module SequenceDetector(
         end
     end
 endmodule`);
-    fs.writeFile('./dec/dec1.v', verilog_code, (err) => {
+    fs.mkdir('./dist', ()=> {});
+    fs.writeFile('./dist/SequenceDetector.v', verilog_code, (err) => {
         if (err) {
             console.error('Error writing file:', err);
             return;

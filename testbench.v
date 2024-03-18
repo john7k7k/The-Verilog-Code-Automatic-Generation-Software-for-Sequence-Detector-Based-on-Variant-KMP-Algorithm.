@@ -15,7 +15,7 @@ module tb_SequenceDetector;
     always #((CLK_PERIOD/2)) clk = ~clk;
     always #10 data_in=$random%3;
     initial begin
-        $dumpfile("dec/tb.vcd");
+        $dumpfile("dist/tb.vcd");
         $dumpvars(0, dut);
         clk = 1;
         reset = 1;
